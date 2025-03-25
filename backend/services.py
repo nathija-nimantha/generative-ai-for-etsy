@@ -13,7 +13,7 @@ async def generate_text(prompt: str):
                 GROQ_API_URL,
                 headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
                 json={
-                    "model": "mixtral-8x7b-32768",
+                    "model": "llama-3.3-70b-versatile",
                     "messages": [
                         {"role": "system", "content": "You are a helpful AI assistant."},
                         {"role": "user", "content": prompt}
