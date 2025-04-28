@@ -27,7 +27,6 @@ backend/
 └── test_main.http          # API testing file
 
 ### 🌐 Frontend (Next.js)
-```plaintext
 frontend/
 ├── app/
 │   ├── components/
