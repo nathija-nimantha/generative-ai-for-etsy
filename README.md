@@ -1,4 +1,3 @@
-```plaintext
 # 🛍️ E-Commerce AI Agent
 
 This project is an AI-powered tool for generating **SEO tags, product descriptions, and marketing content** for Etsy and other e-commerce platforms. It features a **FastAPI backend** and a **Next.js frontend**, integrating the **Groq API** for AI-driven content generation.
@@ -26,7 +25,6 @@ backend/
 ├── requirements.txt        # Dependencies for backend
 ├── services.py             # AI content generation logic
 └── test_main.http          # API testing file
-```
 
 ### 🌐 Frontend (Next.js)
 ```plaintext
